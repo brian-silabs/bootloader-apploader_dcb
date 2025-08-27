@@ -35,7 +35,7 @@
 // <o SL_RAIL_UTIL_AOX_ANTENNA_PIN_COUNT> Number of AoX Antenna Pins
 // <0-6:1>
 // <i> Default: 0
-#define SL_RAIL_UTIL_AOX_ANTENNA_PIN_COUNT 0
+#define SL_RAIL_UTIL_AOX_ANTENNA_PIN_COUNT 1
 // <<< end of configuration section >>>
 
 // <<< sl:start pin_tool >>>
@@ -43,43 +43,42 @@
 // CTE antenna GPIO 0
 // <gpio optional=true> SL_RAIL_UTIL_AOX_ANTENNA_PIN0
 // $[GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN0]
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN0_PORT               gpioPortA
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN0_PIN                0
+#ifndef SL_RAIL_UTIL_AOX_ANTENNA_PIN0_PORT      
+#define SL_RAIL_UTIL_AOX_ANTENNA_PIN0_PORT       SL_GPIO_PORT_A
+#endif
+#ifndef SL_RAIL_UTIL_AOX_ANTENNA_PIN0_PIN       
+#define SL_RAIL_UTIL_AOX_ANTENNA_PIN0_PIN        0
+#endif
 // [GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN0]$
 
 // CTE antenna GPIO 1
 // <gpio optional=true> SL_RAIL_UTIL_AOX_ANTENNA_PIN1
 // $[GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN1]
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN1_PORT               gpioPortA
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN1_PIN                1
+
 // [GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN1]$
 
 // CTE antenna GPIO 2
 // <gpio optional=true> SL_RAIL_UTIL_AOX_ANTENNA_PIN2
 // $[GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN2]
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN2_PORT               gpioPortA
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN2_PIN                2
+
 // [GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN2]$
 
 // CTE antenna GPIO 3
 // <gpio optional=true> SL_RAIL_UTIL_AOX_ANTENNA_PIN3
 // $[GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN3]
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN3_PORT               gpioPortA
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN3_PIN                3
+
 // [GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN3]$
 
 // CTE antenna GPIO 4
 // <gpio optional=true> SL_RAIL_UTIL_AOX_ANTENNA_PIN4
 // $[GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN4]
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN4_PORT               gpioPortA
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN4_PIN                4
+
 // [GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN4]$
 
 // CTE antenna GPIO 5
 // <gpio optional=true> SL_RAIL_UTIL_AOX_ANTENNA_PIN5
 // $[GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN5]
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN5_PORT               gpioPortA
-// #define SL_RAIL_UTIL_AOX_ANTENNA_PIN5_PIN                5
+
 // [GPIO_SL_RAIL_UTIL_AOX_ANTENNA_PIN5]$
 
 // <<< sl:end pin_tool >>>

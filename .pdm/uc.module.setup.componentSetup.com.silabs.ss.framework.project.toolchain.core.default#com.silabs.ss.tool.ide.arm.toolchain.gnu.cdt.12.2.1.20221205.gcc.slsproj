@@ -10,7 +10,7 @@
               <file name="startup_efr32mg24.c" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Source/startup_efr32mg24.c"/>
             </folder>
             <folder name="Include">
-              <file name="efr32mg24b210f1536im48.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24b210f1536im48.h"/>
+              <file name="efr32mg24a410f1536im48.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24a410f1536im48.h"/>
               <file name="efr32mg24_acmp.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_acmp.h"/>
               <file name="efr32mg24_aes.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_aes.h"/>
               <file name="efr32mg24_buram.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_buram.h"/>
@@ -41,7 +41,6 @@
               <file name="efr32mg24_mailbox.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_mailbox.h"/>
               <file name="efr32mg24_mpahbram.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_mpahbram.h"/>
               <file name="efr32mg24_msc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_msc.h"/>
-              <file name="efr32mg24_mvp.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_mvp.h"/>
               <file name="efr32mg24_pcnt.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_pcnt.h"/>
               <file name="efr32mg24_prs.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs.h"/>
               <file name="efr32mg24_prs_signals.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h"/>
@@ -231,15 +230,6 @@
             <file name="sl_memory_manager.h" linked="false" uri="studio:/sdk/platform/service/memory_manager/inc/sl_memory_manager.h"/>
             <file name="sl_memory_manager_region.h" linked="false" uri="studio:/sdk/platform/service/memory_manager/inc/sl_memory_manager_region.h"/>
             <file name="sli_memory_manager_retention_control.h" linked="false" uri="studio:/sdk/platform/service/memory_manager/inc/sli_memory_manager_retention_control.h"/>
-          </folder>
-        </folder>
-        <folder name="udelay">
-          <folder name="src">
-            <file name="sl_udelay.c" linked="false" uri="studio:/sdk/platform/service/udelay/src/sl_udelay.c"/>
-            <file name="sl_udelay_armv6m_gcc.S" linked="false" uri="studio:/sdk/platform/service/udelay/src/sl_udelay_armv6m_gcc.S"/>
-          </folder>
-          <folder name="inc">
-            <file name="sl_udelay.h" linked="false" uri="studio:/sdk/platform/service/udelay/inc/sl_udelay.h"/>
           </folder>
         </folder>
       </folder>
@@ -604,16 +594,6 @@
       </folder>
     </folder>
     <folder name="hardware">
-      <folder name="board">
-        <folder name="src">
-          <file name="sl_board_init.c" linked="false" uri="studio:/sdk/hardware/board/src/sl_board_init.c"/>
-          <file name="sl_board_control_stub.c" linked="false" uri="studio:/sdk/hardware/board/src/sl_board_control_stub.c"/>
-        </folder>
-        <folder name="inc">
-          <file name="sl_board_control.h" linked="false" uri="studio:/sdk/hardware/board/inc/sl_board_control.h"/>
-          <file name="sl_board_init.h" linked="false" uri="studio:/sdk/hardware/board/inc/sl_board_init.h"/>
-        </folder>
-      </folder>
       <folder name="driver">
         <folder name="configuration_over_swo">
           <folder name="src">
@@ -621,18 +601,6 @@
           </folder>
           <folder name="inc">
             <file name="sl_cos.h" linked="false" uri="studio:/sdk/hardware/driver/configuration_over_swo/inc/sl_cos.h"/>
-          </folder>
-        </folder>
-        <folder name="mx25_flash_shutdown">
-          <folder name="src">
-            <folder name="sl_mx25_flash_shutdown_eusart">
-              <file name="sl_mx25_flash_shutdown.c" linked="false" uri="studio:/sdk/hardware/driver/mx25_flash_shutdown/src/sl_mx25_flash_shutdown_eusart/sl_mx25_flash_shutdown.c"/>
-            </folder>
-          </folder>
-          <folder name="inc">
-            <folder name="sl_mx25_flash_shutdown_eusart">
-              <file name="sl_mx25_flash_shutdown.h" linked="false" uri="studio:/sdk/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart/sl_mx25_flash_shutdown.h"/>
-            </folder>
           </folder>
         </folder>
       </folder>
@@ -827,7 +795,6 @@
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/Device/SiliconLabs/EFR32MG24/Include"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/protocol/bluetooth/apploader/inc"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/common/inc"/>
-  <includePath uri="studio:/project/simplicity_sdk_2025.6.1/hardware/board/inc"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/bootloader"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/bootloader/communication"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/bootloader/debug"/>
@@ -857,7 +824,6 @@
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/util/third_party/mbedtls/library"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/service/memory_manager/inc"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/service/memory_manager/src"/>
-  <includePath uri="studio:/project/simplicity_sdk_2025.6.1/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/security/sl_component/sl_psa_driver/inc"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/radio/rail_lib/common"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/radio/rail_lib/protocol/ble"/>
@@ -877,8 +843,7 @@
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/util/third_party/trusted-firmware-m/lib/fih/inc"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/util/third_party/trusted-firmware-m/platform/include"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/security/sl_component/sli_psec_osal/inc"/>
-  <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/service/udelay/inc"/>
-  <macroDefinition name="EFR32MG24B210F1536IM48"/>
+  <macroDefinition name="EFR32MG24A410F1536IM48"/>
   <macroDefinition name="SL_CODE_COMPONENT_SYSTEM" value="system"/>
   <macroDefinition name="SE_MANAGER_CONFIG_FILE" value="&quot;btl_aes_ctr_stream_block_cfg.h&quot;"/>
   <macroDefinition name="BOOTLOADER_APPLOADER" value="1"/>
@@ -974,7 +939,7 @@
   <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.clibs" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nanospec"/>
   <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.map" value="true"/>
   <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.map" value="true"/>
-  <toolOption toolId="studio.ide.project" optionId="device_opn" value="efr32mg24b210f1536im48"/>
+  <toolOption toolId="studio.ide.project" optionId="device_opn" value="efr32mg24a410f1536im48"/>
   <toolOption toolId="makefile.arm.gcc.linker" optionId="misc">
     <toolListOption value="-Wl,--wrap=_free_r -Wl,--wrap=_malloc_r -Wl,--wrap=_calloc_r -Wl,--wrap=_realloc_r"/>
     <toolListOption value="-fno-lto"/>

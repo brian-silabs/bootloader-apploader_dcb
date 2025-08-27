@@ -8,9 +8,9 @@
     <properties key="projectCommon.overwriteCopiedSources" value="false"/>
     <properties key="projectCommon.boardIds" value="com.silabs.board.none:0.0.0"/>
     <properties key="projectCommon.kitId" value=""/>
-    <properties key="projectCommon.partId" value="mcu.arm.efr32.mg24.efr32mg24b210f1536im48"/>
+    <properties key="projectCommon.partId" value="mcu.arm.efr32.mg24.efr32mg24a410f1536im48"/>
     <properties key="projectCommon.toolchainId" value="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205"/>
-    <properties key="universalConfig.projectTypeIds" value="com.silabs.ss.framework.ide.project.core.cdtMbsProjectType"/>
+    <properties key="universalConfig.projectTypeIds" value="visual-studio-code com.silabs.ss.framework.ide.project.core.cdtMbsProjectType"/>
     <properties key="projectCommon.importModeId" value="COPY"/>
     <properties key="universalConfig.compSelProjInstanceId" value="1755852997777"/>
   </descriptors>
